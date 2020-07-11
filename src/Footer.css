@@ -1,0 +1,12 @@
+.Copyright{
+    box-sizing: border-box;
+    width:25%;
+    display:flex;
+    padding: 1em;
+    margin-top: 2em;
+    background-color: purple;
+    color: gold;
+    font-size: 12px;
+    margin-left: 75%;
+    justify-content: center;
+}

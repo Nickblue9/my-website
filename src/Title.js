@@ -5,9 +5,6 @@ function Title() {
     return(
         <div className="Title">
             <h1>SFPOPOS</h1>
-            <div className="Title-Subtitle">
-                <h3>San Fransisco Privately Owned Public Open Space</h3>
-            </div>
         </div>
     )
 }
