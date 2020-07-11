@@ -1,15 +1,16 @@
 import React from "react";
 
-import POPOSSpace from "./POPOSSpace";
+import POPOSSpace from "../space/POPOSSpace";
 
 import './POPOSList.css'
 
-import data from './sfpopos-data'
+import data from '../static/sfpopos-data'
 
 function POPOSList(){
-    const spaces = data.map(( { title, address, images, hours } ) => {
+    const spaces = data.map(( { title, address, images, hours }, id ) => {
         return(
             <POPOSSpace
+                id = {id}
                 key = {title}
                 name = {title}
                 address = {address}
